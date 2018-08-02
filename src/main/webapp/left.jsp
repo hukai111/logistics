@@ -10,8 +10,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>左侧导航menu</title>
-<link href="css/css.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="js/sdmenu.js"></script>
+<link href="<%=basePath %>css/css.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="<%=basePath %>js/sdmenu.js"></script>
 <script type="text/javascript">
 	// <![CDATA[
 	var myMenu;
@@ -28,7 +28,7 @@ body{overflow-x:hidden; background:url(images/main/leftbg.jpg) left top repeat-y
 </head>
 <body onselectstart="return false;" ondragstart="return false;" oncontextmenu="return false;">
 <div id="left-top">
-	<div><img src="images/main/member.gif" width="44" height="44" /></div>
+	<div><img src="<%=basePath %>images/main/member.gif" width="44" height="44" /></div>
     <span>用户：admin<br>角色：超级管理员</span>
 </div>
     <div style="float: left" id="my_menu" class="sdmenu">

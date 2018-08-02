@@ -10,8 +10,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>网站后台管理系统</title>
-<link rel="shortcut icon" href="images/favicon.ico" />
-<link href="css/css.css" type="text/css" rel="stylesheet" />
+<link rel="shortcut icon" href="<%=basePath %>images/favicon.ico" />
+<link href="<%=basePath %>css/css.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 	<!--框架样式-->
